@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="dev-owa-connector" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\repos\\AF_WhatsappConnector\\CloseConnection\\obj\\Release\\net6\.0\\linux-x64\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

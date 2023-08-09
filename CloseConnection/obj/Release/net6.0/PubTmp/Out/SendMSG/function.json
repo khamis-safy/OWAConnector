@@ -1,0 +1,18 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-4.1.1",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "connection": "AzureWebJobsStorage",
+      "topicName": "%IncommingTopicName%",
+      "subscriptionName": "%IncommingQueueName%",
+      "isSessionsEnabled": false,
+      "autoCompleteMessages": true,
+      "name": "myQueueItem"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/WhatsappConnector.dll",
+  "entryPoint": "SendSMS.SendSMS.Run"
+}

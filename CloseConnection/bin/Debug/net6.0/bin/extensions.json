@@ -1,0 +1,7 @@
+{
+  "extensions":[
+    { "name": "OpenApi", "typeName":"Microsoft.Azure.WebJobs.Extensions.OpenApi.OpenApiWebJobsStartup, Microsoft.Azure.WebJobs.Extensions.OpenApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9475d07f10cb09df"},
+    { "name": "ServiceBus", "typeName":"Microsoft.Azure.WebJobs.ServiceBus.ServiceBusWebJobsStartup, Microsoft.Azure.WebJobs.Extensions.ServiceBus, Version=5.8.1.0, Culture=neutral, PublicKeyToken=92742159e12e44c8"},
+    { "name": "Startup", "typeName":"WhatsappConnector.Startup, WhatsappConnector, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"}
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bahao\\source\\repos\\FunctionApp1\\CloseConnection\\CloseConnection.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Client\\Smpp.Net.Client.csproj": {
+      "version": "1.10.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Client\\Smpp.Net.Client.csproj",
+        "projectName": "JamaaSMPP",
+        "projectPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Client\\Smpp.Net.Client.csproj",
+        "packagesPath": "C:\\Users\\bahao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\bahao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "net48",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "targetAlias": "net40",
+            "projectReferences": {
+              "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Lib\\Smpp.Net.Lib.csproj": {
+                "projectPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Lib\\Smpp.Net.Lib.csproj",
+                "includeAssets": "none"
+              }
+            }
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Lib\\Smpp.Net.Lib.csproj": {
+                "projectPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Lib\\Smpp.Net.Lib.csproj",
+                "includeAssets": "none"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Lib\\Smpp.Net.Lib.csproj": {
+                "projectPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Lib\\Smpp.Net.Lib.csproj",
+                "includeAssets": "none"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "net40",
+          "dependencies": {
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.12.0, )"
+            },
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Azure.Messaging.ServiceBus": {
+              "target": "Package",
+              "version": "[7.12.0, )"
+            },
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.SMPP.Net.Lib\\Smpp.Net.Lib.csproj": {
+      "version": "1.10.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.SMPP.Net.Lib\\Smpp.Net.Lib.csproj",
+        "projectName": "JamaaTech.Smpp.Net.Lib",
+        "projectPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.SMPP.Net.Lib\\Smpp.Net.Lib.csproj",
+        "packagesPath": "C:\\Users\\bahao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.SMPP.Net.Lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\bahao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net40",
+          "net48",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "targetAlias": "net40",
+            "projectReferences": {}
+          },
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "net40",
+          "dependencies": {
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        },
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Common.Logging": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bahao\\source\\repos\\FunctionApp1\\CloseConnection\\CloseConnection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bahao\\source\\repos\\FunctionApp1\\CloseConnection\\CloseConnection.csproj",
+        "projectName": "CloseConnection",
+        "projectPath": "C:\\Users\\bahao\\source\\repos\\FunctionApp1\\CloseConnection\\CloseConnection.csproj",
+        "packagesPath": "C:\\Users\\bahao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bahao\\source\\repos\\FunctionApp1\\CloseConnection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bahao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Client\\Smpp.Net.Client.csproj": {
+                "projectPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.Smpp.Net.Client\\Smpp.Net.Client.csproj"
+              },
+              "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.SMPP.Net.Lib\\Smpp.Net.Lib.csproj": {
+                "projectPath": "C:\\Users\\bahao\\Downloads\\Compressed\\JamaaSMPP-master\\JamaaSMPP-master\\JamaaTech.SMPP.Net.Lib\\Smpp.Net.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.32, )"
+            },
+            "Hangfire.MemoryStorage": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Microsoft.Azure.Functions.Extensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.OpenApi": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.ServiceBus": {
+              "target": "Package",
+              "version": "[5.8.1, )"
+            },
+            "Microsoft.NET.Sdk.Functions": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

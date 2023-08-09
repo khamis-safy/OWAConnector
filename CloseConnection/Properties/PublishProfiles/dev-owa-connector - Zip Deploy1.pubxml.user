@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnZMrRrn8KU6oxlkR1G+RrQAAAAACAAAAAAAQZgAAAAEAACAAAADOf1TwbjYe6ohXolHI13FYhbi8/uZ5RpZ6SRaQYMY9UwAAAAAOgAAAAAIAACAAAAAtmgt4IVj1L2LQ3T1QntB++hed6Ngz1fO+jsRPcPlAiYAAAAAVpmRauCT5fC5pZw2yF/FVCQSRUwaAg4oPMzihNk131E5DBOL2hG2x4cS7vvMKs1/zArZ3DeMLKNNTUIH2SJ2ISj9pBcMBxqQVfLbNCNkk8Jw7bYfIWwkdJeO3QBrJOW/gQqqLkkWN8SjNBkVWwDKbtzkD00JVTE75QcXzziY6NEAAAADEiYwsPQbk8QAJzdq/wGNtZxQZJMdamEUX3BuhEuaq1SNkAfjGTf/3hfoC28rOca9kH4sT397mm6B89kJ5xpEc</EncryptedPassword>
+    <History>False|2023-05-23T13:46:29.7616786Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
