@@ -41,7 +41,8 @@ namespace WhatsappConnector
                 };
 
                 var phoneListRes = await StaticShared.Client.GetAsync($"https://graph.facebook.com/v16.0/{query.account_id}/phone_numbers?access_token={query.access_token}");
-                var phoneList = JsonConvert.DeserializeObject<PhoneNumbers>(phoneListRes.Content.ReadAsStringAsync().Result);
+                var respoone = phoneListRes.Content.ReadAsStringAsync().Result;
+                var phoneList = JsonConvert.DeserializeObject<PhoneNumbers>(respoone);
                 string numberId = "";
                 foreach (var item in phoneList.data)
                 {

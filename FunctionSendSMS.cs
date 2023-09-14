@@ -141,6 +141,36 @@ namespace SendSMS
 
                         };
                         break;
+                    case "buttons":
+                        textclass = new SendTxtMsg()
+                        {
+                            messaging_product = "whatsapp",
+                            recipient_type = "individual",
+                            interactive = new Interactive()
+                            {
+                                body= new Body { text=incmsg.textcontents},
+                                type="button",
+                                action=new Action { buttons=new List<Button>() }
+                            },
+                            to = incmsg.toNumber,
+                            type = "interactive"
+
+                        };
+                        var c = 1;
+                        foreach (var item in incmsg.buttons)
+                        {
+                            textclass.interactive.action.buttons.Add(new Button
+                            {
+                                type = "reply",
+                                reply = new Reply
+                                {
+                                    id = c.ToString(),
+                                    title = item
+                                }
+                            });
+                        }
+                        break;
+
                     case "image":
                         textclass = new SendTxtMsg()
                         {
@@ -417,6 +447,7 @@ public class WhatsappIncomingMsg
     public string wamid { get; set; }
     public string language { get; set; }
     public string templateName { get; set; }
+    public List<string> buttons { get; set; }
 }
 public class Contact
 {
@@ -516,8 +547,28 @@ public class SendTxtMsg
     public Media2? audio { get; set; }
     public Media2? sticker { get; set; }
     public Template? template { get; set; }
+    public Interactive? interactive { get; set; }
 
 }
+public partial class Interactive
+{
+    public string type { get; set; }
+    public Body body { get; set; }
+    public Action action { get; set; }
+}
+
+public class Action
+{
+    public List<Button> buttons { get; set; }
+}
+
+public class Button
+{
+    public string type { get; set; }
+
+    public Reply reply { get; set; }
+}
+
 
 public class Body
 {
@@ -536,27 +587,7 @@ public class Buttons
     public Reply reply { get; set; }
 
 }
-public class Action
-{
-    public IList<Buttons> buttons { get; set; }
 
-}
-public class Interactive
-{
-    public string type { get; set; }
-    public Body body { get; set; }
-    public Action action { get; set; }
-
-}
-public class actionButtons
-{
-    public string messaging_product { get; set; }
-    public string recipient_type { get; set; }
-    public string to { get; set; }
-    public string type { get; set; }
-    public Interactive interactive { get; set; }
-
-}
 public class Location
 {
     public int longitude { get; set; }
