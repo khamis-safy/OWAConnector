@@ -22,12 +22,12 @@ namespace WhatsappConnector.HelperClasses
         public static ServiceBusSender callbackSender = new ServiceBusClient(Environment.GetEnvironmentVariable("AzureWebJobsStorage"), new ServiceBusClientOptions()
         {
             TransportType = ServiceBusTransportType.AmqpWebSockets
-        }).CreateSender(Environment.GetEnvironmentVariable("servicebus-cs-topic"));
+        }).CreateSender(Environment.GetEnvironmentVariable("servicebus_cs_topic"));
 
         public static ServiceBusSender receivemessagesSender = new ServiceBusClient(Environment.GetEnvironmentVariable("AzureWebJobsStorage"), new ServiceBusClientOptions()
         {
             TransportType = ServiceBusTransportType.AmqpWebSockets
-        }).CreateSender(Environment.GetEnvironmentVariable("servicebus-cs-topic"));
+        }).CreateSender(Environment.GetEnvironmentVariable("servicebus_cs_topic"));
 
 
 

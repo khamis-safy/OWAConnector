@@ -6,11 +6,11 @@
     //Production:
     //"AzureWebJobsStorage": "Endpoint=sb://uat-servicebus-wpp.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=MotTEQx3nEOlsUQxGIe2yJbZDYaVk4ZkE4UeHevMKB4=",
     //"IncommingQueueName": "uat-owa-sub-listener",
-    //"IncommingTopicName": "uat-servicebus-cs-topic",
+    //"IncommingTopicName": "uat-servicebus_cs_topic",
     //"SID": "891571D6-C937-41FA-89AD-3467EED6605D",
     //"TOKEN": "37FDFB66-DB71-4F90-89DF-D742413390C9",
     //"baseurl": "https://uat-commswift-api.azurewebsites.net/",
-    //"servicebus-cs-topic": "uat-servicebus-cs-topic",
+    //"servicebus_cs_topic": "uat-servicebus_cs_topic",
     //"APPINSIGHTS_INSTRUMENTATIONKEY": "30ff5d86-dcb8-4ac9-bd98-ea1400a80bd8",
 
     //Dev:
@@ -20,8 +20,8 @@
     "baseurl": "https://dev-commswift-api.azurewebsites.net/",
     "SID": "B5DCA7A2-E086-4F55-A30C-8AE0C823D522",
     "TOKEN": "88A265D7-C9DB-42DD-BF42-3020EF430A53",
-    "servicebus-cs-topic": "dev-servicebus-cs-topic",
-    "APPINSIGHTS_INSTRUMENTATIONKEY": "b5a36909-ba0a-4ea1-bfdd-446542513740",
+    "servicebus_cs_topic": "dev-servicebus-cs-topic",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "0f4ca9bd-7a5e-4202-ab55-3d68a5d88e12",
     "BlobConnectionString": "DefaultEndpointsProtocol=https;AccountName=devcommswiftblob;AccountKey=3izAKZd65PN6APVwB49jaxmtuFqdJYTL1+d/BeLZpq3pXZDHPXxctspIITD3/sFykZRGKRJ2OdzR+AStne57Qg==;EndpointSuffix=core.windows.net",
     "BlobContainerName": "attachments"
 

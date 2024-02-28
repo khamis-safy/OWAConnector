@@ -67,6 +67,8 @@ namespace WhatsappConnector
                             {
                                 // this is incomming msg
                                 var msg = barsed.entry.First().changes.First().value;
+                                //logger.LogInformation("Incoming Message ....\n\n");
+                                //logger.LogInformation(JsonConvert.SerializeObject( msg));
 
                                 if (msg.messages.First().type == "text")
                                 {
@@ -186,6 +188,24 @@ namespace WhatsappConnector
                                     logger.LogInformation("incoming msg ....\t" + JsonConvert.SerializeObject(incMsg).ToString());
 
                                     shared.incommingMsgWebhook(incMsg);
+                                }
+                                else if(msg.messages.First().type == "button")
+                                {
+                                    var incMsg = new IncommingMsgCallBack
+                                    {
+                                        msgtype = "text",
+                                        fromnumber = msg.messages.First().from,
+                                        textcontents = msg.messages.First().button.text,
+                                        wppSessionId = barsed.entry.First().id,
+                                        tonumber = msg.metadata.display_phone_number,
+                                        wppMessageRef = $"false_{msg.messages.First().from}@c.us_{Guid.NewGuid()}",
+                                        msgSource = "OWA",
+                                        attachmenturl = ""
+                                    };
+                                    logger.LogInformation("incoming msg ....\t" + JsonConvert.SerializeObject(incMsg).ToString());
+
+                                    shared.incommingMsgWebhook(incMsg);
+
                                 }
 
                             }
